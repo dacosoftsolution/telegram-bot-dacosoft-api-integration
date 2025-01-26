@@ -1,0 +1,30 @@
+# Ignore virtual environments
+venv/
+env/
+.venv/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore the `.git` folder and related files
+.git
+.gitignore
+
+# Ignore local development environment variables
+.env
+
+# Ignore IDE/project-specific files
+.vscode/
+.idea/
+
+# Ignore logs
+*.log
+
+# Ignore the Dockerignore file itself
+.dockerignore
+
+# Ignore any system-specific files
+.DS_Store
+Thumbs.db

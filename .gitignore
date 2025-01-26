@@ -1,0 +1,29 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Logs
+*.log
+
+# .env file for environment variables
+.env
+
+# IDE specific files
+.vscode/
+.idea/
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# MyPy
+.mypy_cache/
+.dmypy.json
