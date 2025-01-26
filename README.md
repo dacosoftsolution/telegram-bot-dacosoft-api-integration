@@ -42,14 +42,19 @@ python main.py
 ```
 
 ## File Strucutre
-
-telegram-bot/
-├── controllers/
-├── services/
-├── utils/
-├── .env
-├── main.py
-└── requirements.txt
+<br />
+telegram-bot/ <br />
+├── controllers/ <br />
+│ └── chat_api_controller.py <br />
+├── services/ <br />
+│ └── chat_api_service.py <br />
+│ └── telegram_bot_service.py <br />
+├── utils/ <br />
+│ └── logger.py <br />
+├── .env <br />
+├── main.py <br />
+├── requirements.txt <br />
+└── README.md <br />
 
 ## LICENCE
 
