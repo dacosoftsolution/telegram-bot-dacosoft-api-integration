@@ -10,12 +10,8 @@ class TelegramBotService:
         
     @staticmethod
     async def new_member(self, update: Update, context):
-        for member in update.chat_members:
-            if member.new_chat_member:
-                new_user = member.new_chat_member
-                if new_user.is_bot:
-                    return
-
-                welcome_message = "Hello! Welcome to the group!"
-
-                await update.chat.send_message(welcome_message)
+        for member in update.message.new_chat_members:
+            if member.is_bot:
+                return
+            welcome_message = "Hello! Welcome to the group!"
+            member.send_message(welcome_message)
